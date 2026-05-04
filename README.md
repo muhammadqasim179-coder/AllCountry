@@ -24,9 +24,12 @@ repositories {
 }
 
 Step 2: Add dependency
+
+
 dependencies {
     implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.5")
 }
+
 
 ⚡ How to Use
 
