@@ -5,6 +5,7 @@
 A simple Android library to access country data easily in your app.
 
 🚀 Latest Version
+
  implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.4")
 🆕 Version 1.0.4 (Bug Fixes)
 🛠️ Fixed Issues:
