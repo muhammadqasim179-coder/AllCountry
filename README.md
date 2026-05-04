@@ -8,6 +8,7 @@ A simple Android library to access country data easily in your app.
  implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.5")
 	
 🆕 Version 1.0.5 (Bug Fixes)
+
 🛠️ Fixed Issues:
 
 Fixed country list loading crash in some devices
@@ -28,9 +29,11 @@ dependencies {
 }
 
 ⚡ How to Use
+
 val countries = AllCountires.getAll()
 
 ⚡ Get Flag by Country Code
+
 You can easily get a country flag using its ISO code:
 get UNiCODE flag that occupied less space.
 
@@ -38,10 +41,10 @@ val flag = CountrySDK
     .getAllCountries()
     .find { it.code.equals("PK", ignoreCase = true) }
     ?.flag
-
-println(flag) // 🇵🇰
+  println(flag) // 🇵🇰
 
 ⚡ Model class
+
 data class Country(
     val name: String,
     val code: String,
@@ -52,9 +55,12 @@ data class Country(
 229 Country Flags
 
 📌 Requirements
+
 Min SDK: 21+
 Kotlin supported project
+
 🔄 Version History
+
 Version	Changes
 1.0.5	Bug fixes & performance improvements
 
