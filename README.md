@@ -29,6 +29,28 @@ dependencies {
 
 ⚡ How to Use
 val countries = AllCountires.getAll()
+
+⚡ Get Flag by Country Code
+You can easily get a country flag using its ISO code:
+get UNiCODE flag that occupied less space.
+
+val flag = CountrySDK
+    .getAllCountries()
+    .find { it.code.equals("PK", ignoreCase = true) }
+    ?.flag
+
+println(flag) // 🇵🇰
+
+⚡ Model class
+data class Country(
+    val name: String,
+    val code: String,
+    val flag: String
+)
+ AllCountires.getAll() list directly pass in Country type model .
+ 
+229 Country Flags
+
 📌 Requirements
 Min SDK: 21+
 Kotlin supported project
