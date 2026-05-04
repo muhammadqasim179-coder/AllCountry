@@ -1,28 +1,31 @@
-📦 AllCountires Library 
-[![](https://jitpack.io/v/muhammadqasim179-coder/AllCountry.svg)](https://jitpack.io/#muhammadqasim179-coder/AllCountry)
+📦 AllCountires Library [![](https://jitpack.io/v/muhammadqasim179-coder/AllCountry.svg)](https://jitpack.io/#muhammadqasim179-coder/AllCountry)
 
 
 A simple Android library to access country data easily in your app.
 
 🚀 Latest Version
 
- implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.4")
-🆕 Version 1.0.4 (Bug Fixes)
+ implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.5")
+	
+🆕 Version 1.0.5 (Bug Fixes)
 🛠️ Fixed Issues:
+
 Fixed country list loading crash in some devices
 Improved API response handling
 Fixed null pointer exception in data parsing
 Optimized performance for large country datasets
 Minor UI/data mapping corrections
 📥 Installation
+
 Step 1: Add JitPack repository
 repositories {
     maven { url = uri("https://jitpack.io") }
 }
 Step 2: Add dependency
 dependencies {
-    implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.4")
+    implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.5")
 }
+
 ⚡ How to Use
 val countries = AllCountires.getAll()
 📌 Requirements
@@ -30,9 +33,8 @@ Min SDK: 21+
 Kotlin supported project
 🔄 Version History
 Version	Changes
-1.0.4	Bug fixes & performance improvements
-1.0.3	Bug fixes & performance improvements
-1.0.2	Initial stable release
+1.0.5	Bug fixes & performance improvements
+
 👨‍💻 Developer
 
 Made with ❤️ by Muhammad Qasim
