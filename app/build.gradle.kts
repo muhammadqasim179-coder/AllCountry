@@ -5,9 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.libpro"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.libpro"
@@ -38,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":mylibrary"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
