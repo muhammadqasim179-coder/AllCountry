@@ -3,8 +3,8 @@
 A simple Android library to access country data easily in your app.
 
 🚀 Latest Version
-implementation("com.github.muhammadqasim179-coder:AllCountires:1.0.3")
-🆕 Version 1.0.3 (Bug Fixes)
+ implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.4")
+🆕 Version 1.0.4 (Bug Fixes)
 🛠️ Fixed Issues:
 Fixed country list loading crash in some devices
 Improved API response handling
@@ -18,7 +18,7 @@ repositories {
 }
 Step 2: Add dependency
 dependencies {
-    implementation("com.github.muhammadqasim179-coder:AllCountires:1.0.3")
+    implementation("com.github.muhammadqasim179-coder:AllCountry:1.0.4")
 }
 ⚡ How to Use
 val countries = AllCountires.getAll()
@@ -27,6 +27,7 @@ Min SDK: 21+
 Kotlin supported project
 🔄 Version History
 Version	Changes
+1.0.4	Bug fixes & performance improvements
 1.0.3	Bug fixes & performance improvements
 1.0.2	Initial stable release
 👨‍💻 Developer
