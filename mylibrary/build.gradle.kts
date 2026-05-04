@@ -46,3 +46,16 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.github.muhammadqasim179-coder"
+            artifactId = "AllCountry"
+            version = "1.0.4"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
