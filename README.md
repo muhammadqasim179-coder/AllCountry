@@ -1,4 +1,4 @@
-📦 AllCountires Library
+📦 AllCountires Library  [![](https://jitpack.io/v/muhammadqasim179-coder/AllCountry.svg)](https://jitpack.io/#muhammadqasim179-coder/AllCountry)
 
 A simple Android library to access country data easily in your app.
 
